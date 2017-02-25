@@ -1,6 +1,6 @@
 <?php
 
-namespace Org\Schema;
+namespace Org\Schema\Thing;
 
 /**
  * Class Action.
@@ -10,7 +10,7 @@ namespace Org\Schema;
  * Specific action sub-type documentation specifies the exact expectation of each argument/role.
  * @author      AppBels <app.bels@gmail.com>
  * @name        Action
- * @namespace   Org\Schema
+ * @namespace   Org\Schema\Thing
  * @package     Org\Schema
  * @see         https://schema.org/Action
  * Date:        25/02/2017
@@ -109,6 +109,7 @@ class Action extends \Org\Schema\Thing
     /**
      * Action constructor.
      * @access  public
+     * @see     \Org\Schema\Thing::__construct()
      */
     public function __construct ()
     {
@@ -118,6 +119,7 @@ class Action extends \Org\Schema\Thing
     /**
      * Action destructor.
      * @access  public
+     * @see     \Org\Schema\Thing::__destruct()
      */
     public function __destruct ()
     {
