@@ -1,0 +1,13 @@
+{
+    "name": "appbels/org",
+    "description": "PHP Library for schema.org",
+    "type": "library",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "AppBels",
+            "email": "app.bels@gmail.com"
+        }
+    ],
+    "require": {}
+}
