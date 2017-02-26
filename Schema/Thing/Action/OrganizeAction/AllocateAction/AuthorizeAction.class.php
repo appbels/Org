@@ -9,6 +9,7 @@ namespace Org\Schema\Thing\Action\OrganizeAction\AllocateAction;
  * @name        AuthorizeAction
  * @namespace   Org\Schema\Thing\Action\OrganizeAction\AllocateAction
  * @package     Org\Schema
+ * @see         https://schema.org/AuthorizeAction
  * Date         27/02/2017
  */
 class AuthorizeAction extends \Org\Schema\Thing\Action\OrganizeAction\AllocateAction

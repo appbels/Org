@@ -11,6 +11,7 @@ namespace Org\Schema\Thing\Action\OrganizeAction\AllocateAction;
  * @name        RejectAction
  * @namespace   Org\Schema\Thing\Action\OrganizeAction\AllocateAction
  * @package     Org\Schema
+ * @see         https://schema.org/RejectAction
  * Date         27/02/2017
  */
 class RejectAction extends \Org\Schema\Thing\Action\OrganizeAction\AllocateAction

@@ -11,6 +11,7 @@ namespace Org\Schema\Thing\Action\OrganizeAction\AllocateAction;
  * @name        AcceptAction
  * @namespace   Org\Schema\Thing\Action\OrganizeAction\AllocateAction
  * @package     Org\Schema
+ * @see         https://schema.org/AcceptAction
  * Date         27/02/2017
  */
 class AcceptAction extends \Org\Schema\Thing\Action\OrganizeAction\AllocateAction

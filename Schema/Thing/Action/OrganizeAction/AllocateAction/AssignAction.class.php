@@ -9,6 +9,7 @@ namespace Org\Schema\Thing\Action\OrganizeAction\AllocateAction;
  * @name        AssignAction
  * @namespace   Org\Schema\Thing\Action\OrganizeAction\AllocateAction
  * @package     Org\Schema
+ * @see         https://schema.org/AssignAction
  * Date         27/02/2017
  */
 class AssignAction extends \Org\Schema\Thing\Action\OrganizeAction\AllocateAction
