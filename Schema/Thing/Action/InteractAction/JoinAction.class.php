@@ -38,6 +38,18 @@ class JoinAction extends \Org\Schema\Thing\Action\InteractAction
 	}
 
 	/**
+	 * JoinAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\InteractAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * JoinAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\InteractAction::__destruct()

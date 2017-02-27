@@ -33,6 +33,18 @@ class VoteAction extends \Org\Schema\Thing\Action\AssessAction\ChooseAction
 	}
 
 	/**
+	 * VoteAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\AssessAction\ChooseAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * VoteAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\AssessAction\ChooseAction::__destruct()

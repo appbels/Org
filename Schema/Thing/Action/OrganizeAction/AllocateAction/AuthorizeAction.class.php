@@ -34,6 +34,18 @@ class AuthorizeAction extends \Org\Schema\Thing\Action\OrganizeAction\AllocateAc
 	}
 
 	/**
+	 * AuthorizeAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\OrganizeAction\AllocateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * AuthorizeAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\OrganizeAction\AllocateAction::__destruct()

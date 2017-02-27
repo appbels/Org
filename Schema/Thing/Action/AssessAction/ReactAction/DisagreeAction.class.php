@@ -27,6 +27,18 @@ class DisagreeAction extends \Org\Schema\Thing\Action\AssessAction\ReactAction
 	}
 
 	/**
+	 * DisagreeAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\AssessAction\ReactAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * DisagreeAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\AssessAction\ReactAction::__destruct()

@@ -43,6 +43,18 @@ class MoveAction extends \Org\Schema\Thing\Action
 	}
 
 	/**
+	 * MoveAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * MoveAction destructor.
 	 * @access     public
 	 * @see        \Org\Schema\Thing\Action::__destruct()

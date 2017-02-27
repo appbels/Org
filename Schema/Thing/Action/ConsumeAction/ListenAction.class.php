@@ -26,6 +26,18 @@ class ListenAction extends \Org\Schema\Thing\Action\ConsumeAction
 	}
 
 	/**
+	 * ListenAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\ConsumeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ListenAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\ConsumeAction::__destruct()

@@ -116,7 +116,19 @@ class Action extends \Org\Schema\Thing
         parent::__construct();
     }
 
-    /**
+	/**
+	 * Action toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing::__toString()
+	 *
+	 * @return  string
+	 */
+    public function __toString ()
+    {
+	    return parent::__toString();
+    }
+
+	/**
      * Action destructor.
      * @access  public
      * @see     \Org\Schema\Thing::__destruct()

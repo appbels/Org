@@ -26,6 +26,18 @@ class ResumeAction extends \Org\Schema\Thing\Action\ControlAction
 	}
 
 	/**
+	 * ResumeAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\ControlAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ResumeAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\ControlAction::__destruct()

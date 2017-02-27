@@ -33,6 +33,18 @@ class PayAction extends \Org\Schema\Thing\Action\TradeAction
 	}
 
 	/**
+	 * PayAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\TradeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * PayAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\TradeAction::__destruct()

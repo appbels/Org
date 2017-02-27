@@ -26,6 +26,18 @@ class CheckAction extends \Org\Schema\Thing\Action\FindAction
 	}
 
 	/**
+	 * CheckAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\FindAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * CheckAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\FindAction::__destruct()

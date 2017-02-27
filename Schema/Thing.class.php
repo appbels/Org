@@ -104,13 +104,46 @@ class Thing
 
     }
 
-    /**
+	/**
+	 * Thing toString.
+	 * @access  public
+	 *
+	 * @return  string
+	 */
+    public function __toString ()
+    {
+	    return '';
+    }
+
+	/**
      * Thing destructor
      * @access  public
      */
     public function __destruct ()
     {
 
+    }
+
+	/**
+	 * Create json schema.
+	 * @access  public
+	 *
+	 * @return  string
+	 */
+    public function toJson ()
+    {
+    	return '';
+    }
+
+	/**
+	 * Create html schema.
+	 * @access  public
+	 *
+	 * @return  string
+	 */
+    public function toHtml ()
+    {
+    	return '';
     }
 
 }

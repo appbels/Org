@@ -26,6 +26,18 @@ class EatAction extends \Org\Schema\Thing\Action\ConsumeAction
 	}
 
 	/**
+	 * EatAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\ConsumeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * EatAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\ConsumeAction::__destruct()

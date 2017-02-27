@@ -26,6 +26,18 @@ class DrawAction extends \Org\Schema\Thing\Action\CreateAction
 	}
 
 	/**
+	 * DrawAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\CreateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * DrawAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\CreateAction::__destruct()

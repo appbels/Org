@@ -26,6 +26,18 @@ class WearAction extends \Org\Schema\Thing\Action\ConsumeAction\UseAction
 	}
 
 	/**
+	 * WearAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\ConsumeAction\UseAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * WearAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\ConsumeAction\UseAction::__destruct()

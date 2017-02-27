@@ -50,6 +50,18 @@ class CommunicateAction extends \Org\Schema\Thing\Action\InteractAction
 	}
 
 	/**
+	 * CommunicateAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\InteractAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * CommunicateAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\InteractAction::__destruct()

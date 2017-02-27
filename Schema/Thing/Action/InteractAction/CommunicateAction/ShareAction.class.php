@@ -26,6 +26,18 @@ class ShareAction extends \Org\Schema\Thing\Action\InteractAction\CommunicateAct
 	}
 
 	/**
+	 * ShareAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\InteractAction\CommunicateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ShareAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\InteractAction\CommunicateAction::__destruct()

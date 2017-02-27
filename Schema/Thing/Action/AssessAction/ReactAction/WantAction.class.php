@@ -26,6 +26,18 @@ class WantAction extends \Org\Schema\Thing\Action\AssessAction\ReactAction
 	}
 
 	/**
+	 * WantAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\AssessAction\ReactAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * WantAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\AssessAction\ReactAction::__destruct()

@@ -25,6 +25,18 @@ class AssessAction extends \Org\Schema\Thing\Action
         parent::__construct();
     }
 
+	/**
+	 * AssessAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
     /**
      * AssessAction destructor.
      * @access  public

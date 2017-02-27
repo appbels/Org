@@ -26,6 +26,18 @@ class ViewAction extends \Org\Schema\Thing\Action\ConsumeAction
 	}
 
 	/**
+	 * ViewAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\ConsumeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ViewAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\ConsumeAction::__destruct()

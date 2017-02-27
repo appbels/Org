@@ -33,6 +33,18 @@ class DonateAction extends \Org\Schema\Thing\Action\TradeAction
 	}
 
 	/**
+	 * DonateAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\TradeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * DonateAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\TradeAction::__destruct()

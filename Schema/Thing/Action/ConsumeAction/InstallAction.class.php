@@ -26,6 +26,18 @@ class InstallAction extends \Org\Schema\Thing\Action\ConsumeAction
 	}
 
 	/**
+	 * InstallAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\ConsumeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * InstallAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\ConsumeAction::__destruct()

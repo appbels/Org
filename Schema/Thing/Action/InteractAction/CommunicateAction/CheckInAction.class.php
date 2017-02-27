@@ -34,6 +34,18 @@ class CheckInAction extends \Org\Schema\Thing\Action\InteractAction\CommunicateA
 	}
 
 	/**
+	 * CheckInAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\InteractAction\CommunicateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * CheckInAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\InteractAction\CommunicateAction::__destruct()

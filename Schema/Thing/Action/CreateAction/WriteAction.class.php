@@ -36,6 +36,18 @@ class WriteAction extends \Org\Schema\Thing\Action\CreateAction
 	}
 
 	/**
+	 * WriteAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\CreateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * WriteAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\CreateAction::__destruct()

@@ -34,6 +34,18 @@ class ChooseAction extends \Org\Schema\Thing\Action\AssessAction
 	}
 
 	/**
+	 * ChooseAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\AssessAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ChooseAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\AssessAction::__destruct()

@@ -33,6 +33,18 @@ class CommentAction extends \Org\Schema\Thing\Action\InteractAction\CommunicateA
 	}
 
 	/**
+	 * CommentAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\InteractAction\CommunicateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * CommentAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\InteractAction\CommunicateAction::__destruct()

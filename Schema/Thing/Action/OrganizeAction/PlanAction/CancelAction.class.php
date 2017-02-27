@@ -28,6 +28,18 @@ class CancelAction extends \Org\Schema\Thing\Action\OrganizeAction\PlanAction
 	}
 
 	/**
+	 * PlanAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\OrganizeAction\PlanAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * CancelAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\OrganizeAction\PlanAction::__destruct()

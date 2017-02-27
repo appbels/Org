@@ -34,6 +34,18 @@ class ReviewAction extends \Org\Schema\Thing\Action\AssessAction
 	}
 
 	/**
+	 * ReviewAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\AssessAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ReviewAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\AssessAction::__destruct()

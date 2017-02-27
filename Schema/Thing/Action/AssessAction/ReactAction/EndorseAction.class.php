@@ -26,6 +26,18 @@ class EndorseAction extends \Org\Schema\Thing\Action\AssessAction\ReactAction
 	}
 
 	/**
+	 * EndorseAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\AssessAction\ReactAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * EndorseAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\AssessAction\ReactAction::__destruct()

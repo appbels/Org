@@ -47,6 +47,18 @@ class CookAction extends \Org\Schema\Thing\Action\CreateAction
 	}
 
 	/**
+	 * CookAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\CreateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * CookAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\CreateAction::__destruct()

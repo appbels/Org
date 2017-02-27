@@ -53,6 +53,18 @@ class TradeAction extends \Org\Schema\Thing\Action
 	}
 
 	/**
+	 * TradeAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * TradeAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action::__destruct()

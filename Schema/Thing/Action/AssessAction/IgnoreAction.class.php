@@ -26,6 +26,18 @@ class IgnoreAction extends \Org\Schema\Thing\Action\AssessAction
 	}
 
 	/**
+	 * IgnoreAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\AssessAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * IgnoreAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\AssessAction::__destruct()

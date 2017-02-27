@@ -29,6 +29,18 @@ class ApplyAction extends \Org\Schema\Thing\Action\OrganizeAction
 	}
 
 	/**
+	 * ApplyAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\OrganizeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ApplyAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\OrganizeAction::__destruct()

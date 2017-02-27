@@ -28,6 +28,18 @@ class RejectAction extends \Org\Schema\Thing\Action\OrganizeAction\AllocateActio
 	}
 
 	/**
+	 * RejectAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\OrganizeAction\AllocateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * RejectAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\OrganizeAction\AllocateAction::__destruct()

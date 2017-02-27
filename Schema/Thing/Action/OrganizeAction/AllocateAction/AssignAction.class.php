@@ -26,6 +26,18 @@ class AssignAction extends \Org\Schema\Thing\Action\OrganizeAction\AllocateActio
 	}
 
 	/**
+	 * AssignAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\OrganizeAction\AllocateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * AssignAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\OrganizeAction\AllocateAction::__destruct()

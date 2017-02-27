@@ -33,6 +33,18 @@ class TipAction extends \Org\Schema\Thing\Action\TradeAction
 	}
 
 	/**
+	 * TipAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\TradeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * TipAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\TradeAction::__destruct()

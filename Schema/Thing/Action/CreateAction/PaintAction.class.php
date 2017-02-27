@@ -26,6 +26,18 @@ class PaintAction extends \Org\Schema\Thing\Action\CreateAction
 	}
 
 	/**
+	 * PaintAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\CreateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * PaintAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\CreateAction::__destruct()

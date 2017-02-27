@@ -29,6 +29,18 @@ class ReserveAction extends \Org\Schema\Thing\Action\OrganizeAction\PlanAction
 	}
 
 	/**
+	 * ReserveAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\OrganizeAction\PlanAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ReserveAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\OrganizeAction\PlanAction::__destruct()

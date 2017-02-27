@@ -34,6 +34,18 @@ class SellAction extends \Org\Schema\Thing\Action\TradeAction
 	}
 
 	/**
+	 * SellAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\TradeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * SellAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\TradeAction::__destruct()

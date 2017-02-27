@@ -49,6 +49,18 @@ class RsvpAction extends \Org\Schema\Thing\Action\InteractAction\CommunicateActi
 	}
 
 	/**
+	 * RsvpAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\InteractAction\CommunicateAction\InformAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * RsvpAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\InteractAction\CommunicateAction\InformAction::__destruct()

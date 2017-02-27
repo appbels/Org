@@ -26,6 +26,18 @@ class ActivateAction extends \Org\Schema\Thing\Action\ControlAction
 	}
 
 	/**
+	 * ActivateAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\ControlAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ActivateAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\ControlAction::__destruct()

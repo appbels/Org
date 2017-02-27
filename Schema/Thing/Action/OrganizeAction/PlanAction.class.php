@@ -33,6 +33,18 @@ class PlanAction extends \Org\Schema\Thing\Action\OrganizeAction
 	}
 
 	/**
+	 * PlanAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\OrganizeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * PlanAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\OrganizeAction::__destruct()

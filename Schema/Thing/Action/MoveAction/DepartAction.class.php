@@ -26,6 +26,18 @@ class DepartAction extends \Org\Schema\Thing\Action\MoveAction
 	}
 
 	/**
+	 * DepartAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\MoveAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * DepartAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\MoveAction::__destruct()

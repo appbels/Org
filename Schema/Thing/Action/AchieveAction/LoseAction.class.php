@@ -31,6 +31,18 @@ class LoseAction extends \Org\Schema\Thing\Action\AchieveAction
         parent::__construct();
     }
 
+	/**
+	 * LoseAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\AchieveAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
     /**
      * LoseAction destructor.
      * @access  public

@@ -28,6 +28,18 @@ class ConfirmAction extends \Org\Schema\Thing\Action\InteractAction\CommunicateA
 	}
 
 	/**
+	 * ConfirmAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\InteractAction\CommunicateAction\InformAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ConfirmAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\InteractAction\CommunicateAction\InformAction::__destruct()

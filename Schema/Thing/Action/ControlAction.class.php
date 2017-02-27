@@ -26,6 +26,18 @@ class ControlAction extends \Org\Schema\Thing\Action
 	}
 
 	/**
+	 * ControlAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ControlAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action::__destruct()

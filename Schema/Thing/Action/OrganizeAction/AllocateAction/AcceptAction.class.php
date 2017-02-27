@@ -28,6 +28,18 @@ class AcceptAction extends \Org\Schema\Thing\Action\OrganizeAction\AllocateActio
 	}
 
 	/**
+	 * AcceptAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\OrganizeAction\AllocateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * AcceptAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\OrganizeAction\AllocateAction::__destruct()

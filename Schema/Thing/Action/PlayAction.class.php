@@ -47,6 +47,18 @@ class PlayAction extends \Org\Schema\Thing\Action
 	}
 
 	/**
+	 * PlayAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * PlayAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action::__destruct()

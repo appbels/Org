@@ -37,6 +37,18 @@ class LeaveAction extends \Org\Schema\Thing\Action\InteractAction
 	}
 
 	/**
+	 * LeaveAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\InteractAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * LeaveAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\InteractAction::__destruct()

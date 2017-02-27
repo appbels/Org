@@ -33,6 +33,18 @@ class TravelAction extends \Org\Schema\Thing\Action\MoveAction
 	}
 
 	/**
+	 * TravelAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\MoveAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * TravelAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\MoveAction::__destruct()

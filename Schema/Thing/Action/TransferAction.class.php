@@ -41,6 +41,18 @@ class TransferAction extends \Org\Schema\Thing\Action
 	}
 
 	/**
+	 * TransferAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * TransferAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action::__destruct()

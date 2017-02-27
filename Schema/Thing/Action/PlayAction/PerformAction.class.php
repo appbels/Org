@@ -33,6 +33,18 @@ class PerformAction extends \Org\Schema\Thing\Action\PlayAction
 	}
 
 	/**
+	 * PerformAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\PlayAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * PerformAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\PlayAction::__destruct()

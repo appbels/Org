@@ -33,6 +33,18 @@ class ConsumeAction extends \Org\Schema\Thing\Action
         parent::__construct();
     }
 
+	/**
+	 * ConsumeAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
     /**
      * ConsumeAction destructor.
      * @access  public

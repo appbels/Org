@@ -26,6 +26,18 @@ class DeactivateAction extends \Org\Schema\Thing\Action\ControlAction
 	}
 
 	/**
+	 * DeactivateAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\ControlAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * DeactivateAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\ControlAction::__destruct()

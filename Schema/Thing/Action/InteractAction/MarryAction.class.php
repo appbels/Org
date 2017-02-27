@@ -26,6 +26,18 @@ class MarryAction extends \Org\Schema\Thing\Action\InteractAction
 	}
 
 	/**
+	 * MarryAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\InteractAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * MarryAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\InteractAction::__destruct()

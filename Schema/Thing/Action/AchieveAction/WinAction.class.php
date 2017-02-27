@@ -32,6 +32,18 @@ class WinAction extends \Org\Schema\Thing\Action\AchieveAction
         parent::__construct();
     }
 
+	/**
+	 * WinAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\AchieveAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
     /**
      * WinAction destructor.
      * @access  public

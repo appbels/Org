@@ -29,6 +29,18 @@ class ScheduleAction extends \Org\Schema\Thing\Action\OrganizeAction\PlanAction
 	}
 
 	/**
+	 * ScheduleAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\OrganizeAction\PlanAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ScheduleAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\OrganizeAction\PlanAction::__destruct()

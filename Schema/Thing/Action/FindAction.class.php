@@ -28,6 +28,18 @@ class FindAction extends \Org\Schema\Thing\Action
 	}
 
 	/**
+	 * FindAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * FindAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action::__destruct()

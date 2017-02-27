@@ -42,6 +42,18 @@ class RentAction extends \Org\Schema\Thing\Action\TradeAction
 	}
 
 	/**
+	 * RentAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\TradeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * RentAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\TradeAction::__destruct()

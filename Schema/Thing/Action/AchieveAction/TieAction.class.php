@@ -25,6 +25,17 @@ class TieAction extends \Org\Schema\Thing\Action\AchieveAction
         parent::__construct();
     }
 
+	/**
+	 * TieAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\AchieveAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
 
     /**
      * TieAction destructor.

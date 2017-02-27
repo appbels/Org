@@ -26,6 +26,18 @@ class PhotographAction extends \Org\Schema\Thing\Action\CreateAction
 	}
 
 	/**
+	 * PhotographAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\CreateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * PhotographAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\CreateAction::__destruct()

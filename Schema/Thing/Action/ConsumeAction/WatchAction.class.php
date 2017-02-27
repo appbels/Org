@@ -26,6 +26,18 @@ class WatchAction extends \Org\Schema\Thing\Action\ConsumeAction
 	}
 
 	/**
+	 * WatchAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\ConsumeAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * WatchAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\ConsumeAction::__destruct()

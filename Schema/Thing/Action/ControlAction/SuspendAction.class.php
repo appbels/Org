@@ -26,6 +26,18 @@ class SuspendAction extends \Org\Schema\Thing\Action\ControlAction
 	}
 
 	/**
+	 * SuspendAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\ControlAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * SuspendAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\ControlAction::__destruct()

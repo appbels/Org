@@ -36,6 +36,18 @@ class BorrowAction extends \Org\Schema\Thing\Action\TransferAction
 	}
 
 	/**
+	 * BorrowAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\TransferAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * BorrowAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\TransferAction::__destruct()

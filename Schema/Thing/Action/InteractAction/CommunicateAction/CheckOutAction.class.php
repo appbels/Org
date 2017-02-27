@@ -32,6 +32,18 @@ class CheckOutAction extends \Org\Schema\Thing\Action\InteractAction\Communicate
 	}
 
 	/**
+	 * CheckOutAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\InteractAction\CommunicateAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * CheckOutAction destructor.
 	 * @access	public
 	 * @see		\Org\Schema\Thing\Action\InteractAction\CommunicateAction::__destruct()

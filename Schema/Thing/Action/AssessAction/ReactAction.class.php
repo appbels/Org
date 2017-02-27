@@ -26,6 +26,18 @@ class ReactAction extends \Org\Schema\Thing\Action\AssessAction
 	}
 
 	/**
+	 * ReactAction toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Action\AssessAction::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
 	 * ReactAction destructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Action\AssessAction::__destruct()
