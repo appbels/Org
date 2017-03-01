@@ -15,6 +15,13 @@ namespace Org\Schema;
 class Thing
 {
 
+	/**
+	 * Context for json+ld
+	 * @const
+	 * @var		string
+	 */
+	const CONTEXT = "https://schema.org";
+
     /**
      * An additional type for the item, typically used for adding more specific types from external
      * vocabularies in microdata syntax.
@@ -112,7 +119,7 @@ class Thing
 	 */
     public function __toString ()
     {
-	    return '';
+	    return $this->toJson();
     }
 
 	/**
@@ -126,25 +133,74 @@ class Thing
 
 	/**
 	 * Create json schema.
+	 * @final
 	 * @access  public
 	 *
 	 * @return  string
 	 */
-    public function toJson ()
+    public final function toJson ()
+    {
+    	$rs = $this->toArray();
+		if (!empty($rs)){
+    		$rs['@context'] = self::CONTEXT;
+		}
+
+    	return json_encode($rs, JSON_UNESCAPED_SLASHES);
+    }
+
+	/**
+	 * Create html schema.
+	 * @final
+	 * @access  public
+	 *
+	 * @return  string
+	 */
+    public final function toHtml ()
     {
     	return '';
     }
 
 	/**
-	 * Create html schema.
-	 * @access  public
+	 * Create an object array of the set values.
+	 * @final
+	 * @access	public
 	 *
-	 * @return  string
+	 * @return 	array
 	 */
-    public function toHtml ()
-    {
-    	return '';
-    }
+    public final function toArray ()
+	{
+		$properties = get_object_vars($this);
+		$rs = array();
+		foreach ($properties as $property => $value){
+			if (!isset($this->{$property}) || empty($this->{$property})){
+				continue;
+			}
+
+			if (is_object($value) && $value instanceof \Org\Schema\Thing){
+				$rs[$property] = $value->toArray();
+			}else if (is_array($value)){
+				$props = array_values($value);
+				$prop = array();
+				$l = count($props);
+				for ($i = 0; $i < $l; $i++){
+					if (is_object($props[$i]) && $props[$i] instanceof \Org\Schema\Thing){
+						$prop[] = $props[$i]->toArray();
+					}else {
+						$prop[] = $props[$i];
+					}
+				}
+				$rs[$property] = $prop;
+			}else {
+				$rs[$property] = $value;
+			}
+		}
+
+		if (!empty($rs)){
+			$rs['@type'] = substr(static::class, (strrpos(static::class, "\\") + 1));
+		}
+
+		return $rs;
+	}
 
 }
 
