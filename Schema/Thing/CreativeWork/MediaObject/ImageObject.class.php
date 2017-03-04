@@ -4,7 +4,7 @@ namespace Org\Schema\Thing\CreativeWork\MediaObject;
 
 /**
  * Class ImageObject.
- *
+ * An image file.
  * @author      AppBels <app.bels@gmail.com>
  * @name        ImageObject
  * @namespace   Org\Schema\Thing\CreativeWork\MediaObject
