@@ -23,7 +23,7 @@ class DeliveryMethod extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/OnSitePickup
 	 * @var     string
 	 */
-	const OnSitePickup = "https://schema.org/OnSitePickup";
+	const OnSitePickup = "http://schema.org/OnSitePickup";
 
 	/**
 	 * Delivery of the goods via direct download from the Internet, i.e.,

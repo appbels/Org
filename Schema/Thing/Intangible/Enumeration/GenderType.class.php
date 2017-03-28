@@ -20,14 +20,14 @@ class GenderType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/Female
 	 * @var     string
 	 */
-	const Female = "https://schema.org/Female";
+	const Female = "http://schema.org/Female";
 
 	/**
 	 * The male gender.
 	 * @see     https://schema.org/Male
 	 * @var     string
 	 */
-	const Male = "https://schema.org/Male";
+	const Male = "http://schema.org/Male";
 
 	/**
 	 * GenderType constructor.

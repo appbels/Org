@@ -21,7 +21,7 @@ class GamePlayMode extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/CoOp
 	 * @var     string
 	 */
-	const CoOp = "https://schema.org/CoOp";
+	const CoOp = "http://schema.org/CoOp";
 
 	/**
 	 * Play mode: MultiPlayer.
@@ -29,14 +29,14 @@ class GamePlayMode extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/MultiPlayer
 	 * @var     string
 	 */
-	const MultiPlayer = "https://schema.org/MultiPlayer";
+	const MultiPlayer = "http://schema.org/MultiPlayer";
 
 	/**
 	 * Play mode: SinglePlayer. Which is played by a lone player.
 	 * @see     https://schema.org/SinglePlayer
 	 * @var     string
 	 */
-	const SinglePlayer = "https://schema.org/SinglePlayer";
+	const SinglePlayer = "http://schema.org/SinglePlayer";
 
 	/**
 	 * GamePlayMode constructor.

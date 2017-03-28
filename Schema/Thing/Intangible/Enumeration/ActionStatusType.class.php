@@ -20,14 +20,14 @@ class ActionStatusType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/ActiveActionStatus
 	 * @var     string
 	 */
-	const ActiveActionStatus = "https://schema.org/ActiveActionStatus";
+	const ActiveActionStatus = "http://schema.org/ActiveActionStatus";
 
 	/**
 	 * An action that has already taken place.
 	 * @see     https://schema.org/CompletedActionStatus
 	 * @var     string
 	 */
-	const CompletedActionStatus = "https://schema.org/CompletedActionStatus";
+	const CompletedActionStatus = "http://schema.org/CompletedActionStatus";
 
 	/**
 	 * An action that failed to complete.
@@ -36,14 +36,14 @@ class ActionStatusType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/FailedActionStatus
 	 * @var     string
 	 */
-	const FailedActionStatus = "https://schema.org/FailedActionStatus";
+	const FailedActionStatus = "http://schema.org/FailedActionStatus";
 
 	/**
 	 * A description of an action that is supported.
 	 * @see     https://schema.org/PotentialActionStatus
 	 * @var     string
 	 */
-	const PotentialActionStatus = "https://schema.org/PotentialActionStatus";
+	const PotentialActionStatus = "http://schema.org/PotentialActionStatus";
 
 	/**
 	 * ActionStatusType constructor.

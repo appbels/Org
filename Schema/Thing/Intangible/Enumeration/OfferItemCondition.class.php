@@ -20,28 +20,28 @@ class OfferItemCondition extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/DamagedCondition
 	 * @var     string
 	 */
-	const DamagedCondition = "https://schema.org/DamagedCondition";
+	const DamagedCondition = "http://schema.org/DamagedCondition";
 
 	/**
 	 * Indicates that the item is new.
 	 * @see     https://schema.org/NewCondition
 	 * @var     string
 	 */
-	const NewCondition = "https://schema.org/NewCondition";
+	const NewCondition = "http://schema.org/NewCondition";
 
 	/**
 	 * Indicates that the item is refurbished.
 	 * @see     https://schema.org/RefurbishedCondition
 	 * @var     string
 	 */
-	const RefurbishedCondition = "https://schema.org/RefurbishedCondition";
+	const RefurbishedCondition = "http://schema.org/RefurbishedCondition";
 
 	/**
 	 * Indicates that the item is used.
 	 * @see     https://schema.org/UsedCondition
 	 * @var     string
 	 */
-	const UsedCondition = "https://schema.org/UsedCondition";
+	const UsedCondition = "http://schema.org/UsedCondition";
 
 	/**
 	 * OfferItemCondition constructor.

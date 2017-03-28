@@ -20,14 +20,14 @@ class ContactPointOption extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/HearingImpairedSupported
 	 * @var     string
 	 */
-	const HearingImpairedSupported = "https://schema.org/HearingImpairedSupported";
+	const HearingImpairedSupported = "http://schema.org/HearingImpairedSupported";
 
 	/**
 	 * The associated telephone number is toll free.
 	 * @see     https://schema.org/TollFree
 	 * @var     string
 	 */
-	const TollFree = "https://schema.org/TollFree";
+	const TollFree = "http://schema.org/TollFree";
 
 	/**
 	 * ContactPointOption constructor.

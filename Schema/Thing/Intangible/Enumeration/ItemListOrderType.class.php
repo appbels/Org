@@ -20,21 +20,21 @@ class ItemListOrderType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/ItemListOrderAscending
 	 * @var     string
 	 */
-	const ItemListOrderAscending = "https://schema.org/ItemListOrderAscending";
+	const ItemListOrderAscending = "http://schema.org/ItemListOrderAscending";
 
 	/**
 	 * An ItemList ordered with higher values listed first.
 	 * @see     https://schema.org/ItemListOrderDescending
 	 * @var     string
 	 */
-	const ItemListOrderDescending = "https://schema.org/ItemListOrderDescending";
+	const ItemListOrderDescending = "http://schema.org/ItemListOrderDescending";
 
 	/**
 	 * An ItemList ordered with no explicit order.
 	 * @see     https://schema.org/ItemListUnordered
 	 * @var     string
 	 */
-	const ItemListUnordered = "https://schema.org/ItemListUnordered";
+	const ItemListUnordered = "http://schema.org/ItemListUnordered";
 
 	/**
 	 * ItemListOrderType constructor.

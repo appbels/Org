@@ -23,28 +23,28 @@ class BookFormatType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/AudiobookFormat
 	 * @var     string
 	 */
-	const AudiobookFormat = "https://schema.org/AudiobookFormat";
+	const AudiobookFormat = "http://schema.org/AudiobookFormat";
 
 	/**
 	 * Book format: Ebook.
 	 * @see     https://schema.org/EBook
 	 * @var     string
 	 */
-	const EBook = "https://schema.org/EBook";
+	const EBook = "http://schema.org/EBook";
 
 	/**
 	 * Book format: Hardcover.
 	 * @see     https://schema.org/Hardcover
 	 * @var     string
 	 */
-	const Hardcover = "https://schema.org/Hardcover";
+	const Hardcover = "http://schema.org/Hardcover";
 
 	/**
 	 * Book format: Paperback.
 	 * @see     https://schema.org/Paperback
 	 * @var     string
 	 */
-	const Paperback = "https://schema.org/Paperback";
+	const Paperback = "http://schema.org/Paperback";
 
 	/**
 	 * BookFormatType constructor.

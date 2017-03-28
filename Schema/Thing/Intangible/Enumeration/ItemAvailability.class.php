@@ -20,42 +20,42 @@ class ItemAvailability extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/Discontinued
 	 * @var     string
 	 */
-	const Discontinued = "https://schema.org/Discontinued";
+	const Discontinued = "http://schema.org/Discontinued";
 
 	/**
 	 * Indicates that the item is in stock.
 	 * @see     https://schema.org/InStock
 	 * @var     string
 	 */
-	const InStock = "https://schema.org/InStock";
+	const InStock = "http://schema.org/InStock";
 
 	/**
 	 * Indicates that the item is available only at physical locations.
 	 * @see     https://schema.org/InStoreOnly
 	 * @var     string
 	 */
-	const InStoreOnly = "https://schema.org/InStoreOnly";
+	const InStoreOnly = "http://schema.org/InStoreOnly";
 
 	/**
 	 * Indicates that the item has limited availability.
 	 * @see     https://schema.org/LimitedAvailability
 	 * @var     string
 	 */
-	const LimitedAvailability = "https://schema.org/LimitedAvailability";
+	const LimitedAvailability = "http://schema.org/LimitedAvailability";
 
 	/**
 	 * Indicates that the item is available only online.
 	 * @see     https://schema.org/OnlineOnly
 	 * @var     string
 	 */
-	const OnlineOnly = "https://schema.org/OnlineOnly";
+	const OnlineOnly = "http://schema.org/OnlineOnly";
 
 	/**
 	 * Indicates that the item is out of stock.
 	 * @see     https://schema.org/OutOfStock
 	 * @var     string
 	 */
-	const OutOfStock = "https://schema.org/OutOfStock";
+	const OutOfStock = "http://schema.org/OutOfStock";
 
 	/**
 	 * Indicates that the item is available for pre-order,
@@ -63,7 +63,7 @@ class ItemAvailability extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/PreOrder
 	 * @var     string
 	 */
-	const PreOrder = "https://schema.org/PreOrder";
+	const PreOrder = "http://schema.org/PreOrder";
 
 	/**
 	 * Indicates that the item is available for ordering and delivery
@@ -71,14 +71,14 @@ class ItemAvailability extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/PreSale
 	 * @var     string
 	 */
-	const PreSale = "https://schema.org/PreSale";
+	const PreSale = "http://schema.org/PreSale";
 
 	/**
 	 * Indicates that the item has sold out.
 	 * @see     https://schema.org/SoldOut
 	 * @var     string
 	 */
-	const SoldOut = "https://schema.org/SoldOut";
+	const SoldOut = "http://schema.org/SoldOut";
 
 	/**
 	 * ItemAvailability constructor.

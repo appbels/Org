@@ -20,7 +20,7 @@ class DriveWheelConfigurationValue extends \Org\Schema\Thing\Intangible\Enumerat
 	 * @see     https://schema.org/AllWheelDriveConfiguration
 	 * @var     string
 	 */
-	const AllWheelDriveConfiguration = "https://schema.org/AllWheelDriveConfiguration";
+	const AllWheelDriveConfiguration = "http://schema.org/AllWheelDriveConfiguration";
 
 	/**
 	 * Four-wheel drive is a transmission layout where the engine primarily drives two wheels
@@ -28,21 +28,21 @@ class DriveWheelConfigurationValue extends \Org\Schema\Thing\Intangible\Enumerat
 	 * @see     https://schema.org/FourWheelDriveConfiguration
 	 * @var     string
 	 */
-	const FourWheelDriveConfiguration = "https://schema.org/FourWheelDriveConfiguration";
+	const FourWheelDriveConfiguration = "http://schema.org/FourWheelDriveConfiguration";
 
 	/**
 	 * Front-wheel drive is a transmission layout where the engine drives the front wheels.
 	 * @see     https://schema.org/FrontWheelDriveConfiguration
 	 * @var     string
 	 */
-	const FrontWheelDriveConfiguration = "https://schema.org/FrontWheelDriveConfiguration";
+	const FrontWheelDriveConfiguration = "http://schema.org/FrontWheelDriveConfiguration";
 
 	/**
 	 * Real-wheel drive is a transmission layout where the engine drives the rear wheels.
 	 * @see     https://schema.org/RearWheelDriveConfiguration
 	 * @var     string
 	 */
-	const RearWheelDriveConfiguration = "https://schema.org/RearWheelDriveConfiguration";
+	const RearWheelDriveConfiguration = "http://schema.org/RearWheelDriveConfiguration";
 
 	/**
 	 * DriveWheelConfigurationValue constructor.

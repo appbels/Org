@@ -20,28 +20,28 @@ class ReservationStatusType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/ReservationCancelled
 	 * @var     string
 	 */
-	const ReservationCancelled = "https://schema.org/ReservationCancelled";
+	const ReservationCancelled = "http://schema.org/ReservationCancelled";
 
 	/**
 	 * The status of a confirmed reservation.
 	 * @see     https://schema.org/ReservationConfirmed
 	 * @var     string
 	 */
-	const ReservationConfirmed = "https://schema.org/ReservationConfirmed";
+	const ReservationConfirmed = "http://schema.org/ReservationConfirmed";
 
 	/**
 	 * The status of a reservation on hold pending an update like credit card number or flight changes.
 	 * @see     https://schema.org/ReservationHold
 	 * @var     string
 	 */
-	const ReservationHold = "https://schema.org/ReservationHold";
+	const ReservationHold = "http://schema.org/ReservationHold";
 
 	/**
 	 * The status of a reservation when a request has been sent, but not confirmed.
 	 * @see     https://schema.org/ReservationPending
 	 * @var     string
 	 */
-	const ReservationPending = "https://schema.org/ReservationPending";
+	const ReservationPending = "http://schema.org/ReservationPending";
 
 	/**
 	 * ReservationStatusType constructor.

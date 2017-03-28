@@ -20,14 +20,14 @@ class BoardingPolicyType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/GroupBoardingPolicy
 	 * @var     string
 	 */
-	const GroupBoardingPolicy = "https://schema.org/GroupBoardingPolicy";
+	const GroupBoardingPolicy = "http://schema.org/GroupBoardingPolicy";
 
 	/**
 	 * The airline boards by zones of the plane.
 	 * @see     https://schema.org/ZoneBoardingPolicy
 	 * @var     string
 	 */
-	const ZoneBoardingPolicy = "https://schema.org/ZoneBoardingPolicy";
+	const ZoneBoardingPolicy = "http://schema.org/ZoneBoardingPolicy";
 
 	/**
 	 * BoardingPolicyType constructor.

@@ -20,7 +20,7 @@ class Thing
 	 * @const
 	 * @var		string
 	 */
-	const CONTEXT = "https://schema.org";
+	const CONTEXT = "http://schema.org";
 
     /**
      * An additional type for the item, typically used for adding more specific types from external

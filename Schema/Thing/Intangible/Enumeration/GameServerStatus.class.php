@@ -21,7 +21,7 @@ class GameServerStatus extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/OfflinePermanently
 	 * @var     string
 	 */
-	const OfflinePermanently = "https://schema.org/OfflinePermanently";
+	const OfflinePermanently = "http://schema.org/OfflinePermanently";
 
 	/**
 	 * Game server status: OfflineTemporarily.
@@ -29,7 +29,7 @@ class GameServerStatus extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/OfflineTemporarily
 	 * @var     string
 	 */
-	const OfflineTemporarily = "https://schema.org/OfflineTemporarily";
+	const OfflineTemporarily = "http://schema.org/OfflineTemporarily";
 
 	/**
 	 * Game server status: Online.
@@ -37,7 +37,7 @@ class GameServerStatus extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/Online
 	 * @var     string
 	 */
-	const Online = "https://schema.org/Online";
+	const Online = "http://schema.org/Online";
 
 	/**
 	 * Game server status: OnlineFull.
@@ -46,7 +46,7 @@ class GameServerStatus extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/OnlineFull
 	 * @var     string
 	 */
-	const OnlineFull = "https://schema.org/OnlineFull";
+	const OnlineFull = "http://schema.org/OnlineFull";
 
 	/**
 	 * GameServerStatus constructor.

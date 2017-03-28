@@ -20,35 +20,35 @@ class PaymentStatusType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/PaymentAutomaticallyApplied
 	 * @var     string
 	 */
-	const PaymentAutomaticallyApplied = "https://schema.org/PaymentAutomaticallyApplied";
+	const PaymentAutomaticallyApplied = "http://schema.org/PaymentAutomaticallyApplied";
 
 	/**
 	 * The payment has been received and processed.
 	 * @see     https://schema.org/PaymentComplete
 	 * @var     string
 	 */
-	const PaymentComplete = "https://schema.org/PaymentComplete";
+	const PaymentComplete = "http://schema.org/PaymentComplete";
 
 	/**
 	 * The payee received the payment, but it was declined for some reason.
 	 * @see     https://schema.org/PaymentDeclined
 	 * @var     string
 	 */
-	const PaymentDeclined = "https://schema.org/PaymentDeclined";
+	const PaymentDeclined = "http://schema.org/PaymentDeclined";
 
 	/**
 	 * The payment is due, but still within an acceptable time to be received.
 	 * @see     https://schema.org/PaymentDue
 	 * @var     string
 	 */
-	const PaymentDue = "https://schema.org/PaymentDue";
+	const PaymentDue = "http://schema.org/PaymentDue";
 
 	/**
 	 * The payment is due and considered late.
 	 * @see     https://schema.org/PaymentPastDue
 	 * @var     string
 	 */
-	const PaymentPastDue = "https://schema.org/PaymentPastDue";
+	const PaymentPastDue = "http://schema.org/PaymentPastDue";
 
 	/**
 	 * PaymentStatusType constructor.

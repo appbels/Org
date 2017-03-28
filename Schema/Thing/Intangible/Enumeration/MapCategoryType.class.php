@@ -20,28 +20,28 @@ class MapCategoryType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/ParkingMap
 	 * @var     string
 	 */
-	const ParkingMap = "https://schema.org/ParkingMap";
+	const ParkingMap = "http://schema.org/ParkingMap";
 
 	/**
 	 * A seating map.
 	 * @see     https://schema.org/SeatingMap
 	 * @var     string
 	 */
-	const SeatingMap = "https://schema.org/SeatingMap";
+	const SeatingMap = "http://schema.org/SeatingMap";
 
 	/**
 	 * A transit map.
 	 * @see     https://schema.org/TransitMap
 	 * @var     string
 	 */
-	const TransitMap = "https://schema.org/TransitMap";
+	const TransitMap = "http://schema.org/TransitMap";
 
 	/**
 	 * A venue map (e.g. for malls, auditoriums, museums, etc.).
 	 * @see     https://schema.org/VenueMap
 	 * @var     string
 	 */
-	const VenueMap = "https://schema.org/VenueMap";
+	const VenueMap = "http://schema.org/VenueMap";
 
 	/**
 	 * MapCategoryType constructor.

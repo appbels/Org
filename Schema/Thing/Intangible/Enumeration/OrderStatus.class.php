@@ -20,56 +20,56 @@ class OrderStatus extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/OrderCancelled
 	 * @var     string
 	 */
-	const OrderCancelled = "https://schema.org/OrderCancelled";
+	const OrderCancelled = "http://schema.org/OrderCancelled";
 
 	/**
 	 * OrderStatus representing successful delivery of an order.
 	 * @see     https://schema.org/OrderDelivered
 	 * @var     string
 	 */
-	const OrderDelivered = "https://schema.org/OrderDelivered";
+	const OrderDelivered = "http://schema.org/OrderDelivered";
 
 	/**
 	 * OrderStatus representing that an order is in transit.
 	 * @see     https://schema.org/OrderInTransit
 	 * @var     string
 	 */
-	const OrderInTransit = "https://schema.org/OrderInTransit";
+	const OrderInTransit = "http://schema.org/OrderInTransit";
 
 	/**
 	 * OrderStatus representing that payment is due on an order.
 	 * @see     https://schema.org/OrderPaymentDue
 	 * @var     string
 	 */
-	const OrderPaymentDue = "https://schema.org/OrderPaymentDue";
+	const OrderPaymentDue = "http://schema.org/OrderPaymentDue";
 
 	/**
 	 * OrderStatus representing availability of an order for pickup.
 	 * @see     https://schema.org/OrderPickupAvailable
 	 * @var     string
 	 */
-	const OrderPickupAvailable = "https://schema.org/OrderPickupAvailable";
+	const OrderPickupAvailable = "http://schema.org/OrderPickupAvailable";
 
 	/**
 	 * OrderStatus representing that there is a problem with the order.
 	 * @see     https://schema.org/OrderProblem
 	 * @var     string
 	 */
-	const OrderProblem = "https://schema.org/OrderProblem";
+	const OrderProblem = "http://schema.org/OrderProblem";
 
 	/**
 	 * OrderStatus representing that an order is being processed.
 	 * @see     https://schema.org/OrderProcessing
 	 * @var     string
 	 */
-	const OrderProcessing = "https://schema.org/OrderProcessing";
+	const OrderProcessing = "http://schema.org/OrderProcessing";
 
 	/**
 	 * OrderStatus representing that an order has been returned.
 	 * @see     https://schema.org/OrderReturned
 	 * @var     string
 	 */
-	const OrderReturned = "https://schema.org/OrderReturned";
+	const OrderReturned = "http://schema.org/OrderReturned";
 
 	/**
 	 * OrderStatus constructor.

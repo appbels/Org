@@ -20,63 +20,63 @@ class MusicAlbumProductionType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/CompilationAlbum
 	 * @var     string
 	 */
-	const CompilationAlbum = "https://schema.org/CompilationAlbum";
+	const CompilationAlbum = "http://schema.org/CompilationAlbum";
 
 	/**
 	 * DJMixAlbum.
 	 * @see     https://schema.org/DJMixAlbum
 	 * @var     string
 	 */
-	const DJMixAlbum = "https://schema.org/DJMixAlbum";
+	const DJMixAlbum = "http://schema.org/DJMixAlbum";
 
 	/**
 	 * DemoAlbum.
 	 * @see     https://schema.org/DemoAlbum
 	 * @var     string
 	 */
-	const DemoAlbum = "https://schema.org/DemoAlbum";
+	const DemoAlbum = "http://schema.org/DemoAlbum";
 
 	/**
 	 * LiveAlbum.
 	 * @see     https://schema.org/LiveAlbum
 	 * @var     string
 	 */
-	const LiveAlbum = "https://schema.org/LiveAlbum";
+	const LiveAlbum = "http://schema.org/LiveAlbum";
 
 	/**
 	 * MixtapeAlbum.
 	 * @see     https://schema.org/MixtapeAlbum
 	 * @var     string
 	 */
-	const MixtapeAlbum = "https://schema.org/MixtapeAlbum";
+	const MixtapeAlbum = "http://schema.org/MixtapeAlbum";
 
 	/**
 	 * RemixAlbum.
 	 * @see     https://schema.org/RemixAlbum
 	 * @var     string
 	 */
-	const RemixAlbum = "https://schema.org/RemixAlbum";
+	const RemixAlbum = "http://schema.org/RemixAlbum";
 
 	/**
 	 * SoundtrackAlbum.
 	 * @see     https://schema.org/SoundtrackAlbum
 	 * @var     string
 	 */
-	const SoundtrackAlbum = "https://schema.org/SoundtrackAlbum";
+	const SoundtrackAlbum = "http://schema.org/SoundtrackAlbum";
 
 	/**
 	 * SpokenWordAlbum.
 	 * @see     https://schema.org/SpokenWordAlbum
 	 * @var     string
 	 */
-	const SpokenWordAlbum = "https://schema.org/SpokenWordAlbum";
+	const SpokenWordAlbum = "http://schema.org/SpokenWordAlbum";
 
 	/**
 	 * StudioAlbum.
 	 * @see     https://schema.org/StudioAlbum
 	 * @var     string
 	 */
-	const StudioAlbum = "https://schema.org/StudioAlbum";
+	const StudioAlbum = "http://schema.org/StudioAlbum";
 
 	/**
 	 * MusicAlbumProductionType constructor.

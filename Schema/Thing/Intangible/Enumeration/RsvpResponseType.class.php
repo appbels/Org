@@ -20,21 +20,21 @@ class RsvpResponseType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/RsvpResponseMaybe
 	 * @var     string
 	 */
-	const RsvpResponseMaybe = "https://schema.org/RsvpResponseMaybe";
+	const RsvpResponseMaybe = "http://schema.org/RsvpResponseMaybe";
 
 	/**
 	 * The invitee will not attend.
 	 * @see     https://schema.org/RsvpResponseNo
 	 * @var     string
 	 */
-	const RsvpResponseNo = "https://schema.org/RsvpResponseNo";
+	const RsvpResponseNo = "http://schema.org/RsvpResponseNo";
 
 	/**
 	 * The invitee will attend.
 	 * @see     https://schema.org/RsvpResponseYes
 	 * @var     string
 	 */
-	const RsvpResponseYes = "https://schema.org/RsvpResponseYes";
+	const RsvpResponseYes = "http://schema.org/RsvpResponseYes";
 
 	/**
 	 * RsvpResponseType constructor.

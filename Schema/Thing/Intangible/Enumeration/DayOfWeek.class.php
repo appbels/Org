@@ -24,49 +24,49 @@ class DayOfWeek extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/Monday
 	 * @var     string
 	 */
-	const Monday = "https://schema.org/Monday";
+	const Monday = "http://schema.org/Monday";
 
 	/**
 	 * The day of the week between Monday and Wednesday.
 	 * @see     https://schema.org/Tuesday
 	 * @var     string
 	 */
-	const Tuesday = "https://schema.org/Tuesday";
+	const Tuesday = "http://schema.org/Tuesday";
 
 	/**
 	 * The day of the week between Tuesday and Thursday.
 	 * @see     https://schema.org/Wednesday
 	 * @var     string
 	 */
-	const Wednesday = "https://schema.org/Wednesday";
+	const Wednesday = "http://schema.org/Wednesday";
 
 	/**
 	 * The day of the week between Wednesday and Friday.
 	 * @see     https://schema.org/Thursday
 	 * @var     string
 	 */
-	const Thursday = "https://schema.org/Thursday";
+	const Thursday = "http://schema.org/Thursday";
 
 	/**
 	 * The day of the week between Thursday and Saturday.
 	 * @see     https://schema.org/Friday
 	 * @var     string
 	 */
-	const Friday = "https://schema.org/Friday";
+	const Friday = "http://schema.org/Friday";
 
 	/**
 	 * The day of the week between Friday and Sunday.
 	 * @see     https://schema.org/Saturday
 	 * @var     string
 	 */
-	const Saturday = "https://schema.org/Saturday";
+	const Saturday = "http://schema.org/Saturday";
 
 	/**
 	 * The day of the week between Saturday and Monday.
 	 * @see     https://schema.org/Sunday
 	 * @var     string
 	 */
-	const Sunday = "https://schema.org/Sunday";
+	const Sunday = "http://schema.org/Sunday";
 
 	/**
 	 * This stands for any day that is a public holiday; it is a placeholder for all
@@ -78,7 +78,7 @@ class DayOfWeek extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/PublicHolidays
 	 * @var     string
 	 */
-	const PublicHolidays = "https://schema.org/PublicHolidays";
+	const PublicHolidays = "http://schema.org/PublicHolidays";
 
 	/**
 	 * DayOfWeek constructor.

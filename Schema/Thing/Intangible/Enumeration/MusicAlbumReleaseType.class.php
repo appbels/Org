@@ -20,28 +20,28 @@ class MusicAlbumReleaseType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/AlbumRelease
 	 * @var     string
 	 */
-	const AlbumRelease = "https://schema.org/AlbumRelease";
+	const AlbumRelease = "http://schema.org/AlbumRelease";
 
 	/**
 	 * BroadcastRelease.
 	 * @see     https://schema.org/BroadcastRelease
 	 * @var     string
 	 */
-	const BroadcastRelease = "https://schema.org/BroadcastRelease";
+	const BroadcastRelease = "http://schema.org/BroadcastRelease";
 
 	/**
 	 * EPRelease.
 	 * @see     https://schema.org/EPRelease
 	 * @var     string
 	 */
-	const EPRelease = "https://schema.org/EPRelease";
+	const EPRelease = "http://schema.org/EPRelease";
 
 	/**
 	 * SingleRelease.
 	 * @see     https://schema.org/SingleRelease
 	 * @var     string
 	 */
-	const SingleRelease = "https://schema.org/SingleRelease";
+	const SingleRelease = "http://schema.org/SingleRelease";
 
 	/**
 	 * MusicAlbumReleaseType constructor.

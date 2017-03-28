@@ -20,77 +20,77 @@ class RestrictedDiet extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/DiabeticDiet
 	 * @var     string
 	 */
-	const DiabeticDiet = "https://schema.org/DiabeticDiet";
+	const DiabeticDiet = "http://schema.org/DiabeticDiet";
 
 	/**
 	 * A diet exclusive of gluten.
 	 * @see     https://schema.org/GlutenFreeDiet
 	 * @var     string
 	 */
-	const GlutenFreeDiet = "https://schema.org/GlutenFreeDiet";
+	const GlutenFreeDiet = "http://schema.org/GlutenFreeDiet";
 
 	/**
 	 * A diet conforming to Islamic dietary practices.
 	 * @see     https://schema.org/HalalDiet
 	 * @var     string
 	 */
-	const HalalDiet = "https://schema.org/HalalDiet";
+	const HalalDiet = "http://schema.org/HalalDiet";
 
 	/**
 	 * A diet conforming to Hindu dietary practices, in particular, beef-free.
 	 * @see     https://schema.org/HinduDiet
 	 * @var     string
 	 */
-	const HinduDiet = "https://schema.org/HinduDiet";
+	const HinduDiet = "http://schema.org/HinduDiet";
 
 	/**
 	 * A diet conforming to Jewish dietary practices.
 	 * @see     https://schema.org/KosherDiet
 	 * @var     string
 	 */
-	const KosherDiet = "https://schema.org/KosherDiet";
+	const KosherDiet = "http://schema.org/KosherDiet";
 
 	/**
 	 * A diet focused on reduced calorie intake.
 	 * @see     https://schema.org/LowCalorieDiet
 	 * @var     string
 	 */
-	const LowCalorieDiet = "https://schema.org/LowCalorieDiet";
+	const LowCalorieDiet = "http://schema.org/LowCalorieDiet";
 
 	/**
 	 * A diet focused on reduced fat and cholesterol intake.
 	 * @see     https://schema.org/LowFatDiet
 	 * @var     string
 	 */
-	const LowFatDiet = "https://schema.org/LowFatDiet";
+	const LowFatDiet = "http://schema.org/LowFatDiet";
 
 	/**
 	 * A diet appropriate for people with lactose intolerance.
 	 * @see     https://schema.org/LowLactoseDiet
 	 * @var     string
 	 */
-	const LowLactoseDiet = "https://schema.org/LowLactoseDiet";
+	const LowLactoseDiet = "http://schema.org/LowLactoseDiet";
 
 	/**
 	 * A diet focused on reduced sodium intake.
 	 * @see     https://schema.org/LowSaltDiet
 	 * @var     string
 	 */
-	const LowSaltDiet = "https://schema.org/LowSaltDiet";
+	const LowSaltDiet = "http://schema.org/LowSaltDiet";
 
 	/**
 	 * A diet exclusive of all animal products.
 	 * @see     https://schema.org/VeganDiet
 	 * @var     string
 	 */
-	const VeganDiet = "https://schema.org/VeganDiet";
+	const VeganDiet = "http://schema.org/VeganDiet";
 
 	/**
 	 * A diet exclusive of animal meat.
 	 * @see     https://schema.org/VegetarianDiet
 	 * @var     string
 	 */
-	const VegetarianDiet = "https://schema.org/VegetarianDiet";
+	const VegetarianDiet = "http://schema.org/VegetarianDiet";
 
 	/**
 	 * RestrictedDiet constructor.

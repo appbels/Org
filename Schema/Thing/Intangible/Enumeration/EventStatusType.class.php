@@ -24,7 +24,7 @@ class EventStatusType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/EventCancelled
 	 * @var     string
 	 */
-	const EventCancelled = "https://schema.org/EventCancelled";
+	const EventCancelled = "http://schema.org/EventCancelled";
 
 	/**
 	 * The event has been postponed and no new date has been set.
@@ -32,7 +32,7 @@ class EventStatusType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/EventPostponed
 	 * @var     string
 	 */
-	const EventPostponed = "https://schema.org/EventPostponed";
+	const EventPostponed = "http://schema.org/EventPostponed";
 
 	/**
 	 * The event has been rescheduled. The event's previousStartDate should be
@@ -42,7 +42,7 @@ class EventStatusType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/EventRescheduled
 	 * @var     string
 	 */
-	const EventRescheduled = "https://schema.org/EventRescheduled";
+	const EventRescheduled = "http://schema.org/EventRescheduled";
 
 	/**
 	 * The event is taking place or has taken place on the startDate as scheduled.
@@ -50,7 +50,7 @@ class EventStatusType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/EventScheduled
 	 * @var     string
 	 */
-	const EventScheduled = "https://schema.org/EventScheduled";
+	const EventScheduled = "http://schema.org/EventScheduled";
 
 	/**
 	 * EventStatusType constructor.

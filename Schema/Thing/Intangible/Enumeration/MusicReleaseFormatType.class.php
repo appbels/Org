@@ -20,49 +20,49 @@ class MusicReleaseFormatType extends \Org\Schema\Thing\Intangible\Enumeration
 	 * @see     https://schema.org/CDFormat
 	 * @var     string
 	 */
-	const CDFormat = "https://schema.org/CDFormat";
+	const CDFormat = "http://schema.org/CDFormat";
 
 	/**
 	 * CassetteFormat.
 	 * @see     https://schema.org/CassetteFormat
 	 * @var     string
 	 */
-	const CassetteFormat = "https://schema.org/CassetteFormat";
+	const CassetteFormat = "http://schema.org/CassetteFormat";
 
 	/**
 	 * DVDFormat.
 	 * @see     https://schema.org/DVDFormat
 	 * @var     string
 	 */
-	const DVDFormat = "https://schema.org/DVDFormat";
+	const DVDFormat = "http://schema.org/DVDFormat";
 
 	/**
 	 * DigitalAudioTapeFormat.
 	 * @see     https://schema.org/DigitalAudioTapeFormat
 	 * @var     string
 	 */
-	const DigitalAudioTapeFormat = "https://schema.org/DigitalAudioTapeFormat";
+	const DigitalAudioTapeFormat = "http://schema.org/DigitalAudioTapeFormat";
 
 	/**
 	 * DigitalFormat.
 	 * @see     https://schema.org/DigitalFormat
 	 * @var     string
 	 */
-	const DigitalFormat = "https://schema.org/DigitalFormat";
+	const DigitalFormat = "http://schema.org/DigitalFormat";
 
 	/**
 	 * LaserDiscFormat.
 	 * @see     https://schema.org/LaserDiscFormat
 	 * @var     string
 	 */
-	const LaserDiscFormat = "https://schema.org/LaserDiscFormat";
+	const LaserDiscFormat = "http://schema.org/LaserDiscFormat";
 
 	/**
 	 * VinylFormat.
 	 * @see     https://schema.org/VinylFormat
 	 * @var     string
 	 */
-	const VinylFormat = "https://schema.org/VinylFormat";
+	const VinylFormat = "http://schema.org/VinylFormat";
 
 	/**
 	 * MusicReleaseFormatType constructor.

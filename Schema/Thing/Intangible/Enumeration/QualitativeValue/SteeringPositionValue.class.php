@@ -20,14 +20,14 @@ class SteeringPositionValue extends \Org\Schema\Thing\Intangible\Enumeration\Qua
 	 * @see     https://schema.org/LeftHandDriving
 	 * @var     string
 	 */
-	const LeftHandDriving = "https://schema.org/LeftHandDriving";
+	const LeftHandDriving = "http://schema.org/LeftHandDriving";
 
 	/**
 	 * The steering position is on the right side of the vehicle (viewed from the main direction of driving).
 	 * @see     https://schema.org/RightHandDriving
 	 * @var     string
 	 */
-	const RightHandDriving = "https://schema.org/RightHandDriving";
+	const RightHandDriving = "http://schema.org/RightHandDriving";
 
 	/**
 	 * SteeringPositionValue constructor.
