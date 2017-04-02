@@ -50,6 +50,7 @@ class PaymentCard extends \Org\Schema\Thing\Intangible\Enumeration\PaymentMethod
 	## Service properties                                            ##
 	##                                                               ##
 	###################################################################
+
 	/**
 	 * The overall rating, based on a collection of reviews or ratings, of the item.
 	 * @access  public
