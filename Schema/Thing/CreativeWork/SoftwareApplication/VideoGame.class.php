@@ -92,6 +92,7 @@ class VideoGame extends \Org\Schema\Thing\CreativeWork\SoftwareApplication
 	## Game properties                                               ##
 	##                                                               ##
 	###################################################################
+
 	/**
 	 * A piece of data that represents a particular aspect of a fictional character
 	 * (skill, power, character points, advantage, disadvantage).
