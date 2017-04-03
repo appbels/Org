@@ -1,21 +1,25 @@
 <?php
 
-namespace Org\Schema\Thing\Organization;
+namespace Org\Schema\Thing\Organization\MedicalOrganization;
 
 /**
- * Class LocalBusiness
- * A particular physical business or branch of an organization.
- * Examples of LocalBusiness include a restaurant, a particular branch of a restaurant chain,
- * a branch of a bank, a medical practice, a club, a bowling alley, etc.
+ * Class Dentist
+ * A dentist.
  * @author      AppBels <app.bels@gmail.com>
- * @name        LocalBusiness
- * @namespace   Org\Schema\Thing\Organization
+ * @name        Dentist
+ * @namespace   Org\Schema\Thing\Organization\MedicalOrganization
  * @package     Org\Schema
- * @see         https://schema.org/LocalBusiness
- * Date         02/04/2017
+ * @see         https://schema.org/Dentist
+ * Date         03/04/2017
  */
-class LocalBusiness extends \Org\Schema\Thing\Organization
+class Dentist extends \Org\Schema\Thing\Organization\MedicalOrganization
 {
+
+	###################################################################
+	##                                                               ##
+	## LocalBusiness properties                                      ##
+	##                                                               ##
+	###################################################################
 
 	/**
 	 * The currency accepted (in ISO 4217 currency format).
@@ -164,9 +168,9 @@ class LocalBusiness extends \Org\Schema\Thing\Organization
 	public $specialOpeningHoursSpecification;
 
 	/**
-	 * LocalBusiness constructor.
+	 * Dentist constructor.
 	 * @access  public
-	 * @see     \Org\Schema\Thing\Organization::__construct()
+	 * @see     \Org\Schema\Thing\Organization\MedicalOrganization::__construct()
 	 */
 	public function __construct ()
 	{
@@ -174,9 +178,9 @@ class LocalBusiness extends \Org\Schema\Thing\Organization
 	}
 
 	/**
-	 * LocalBusiness toString.
+	 * Dentist toString.
 	 * @access  public
-	 * @see     \Org\Schema\Thing\Organization::__toString()
+	 * @see     \Org\Schema\Thing\Organization\MedicalOrganization::__toString()
 	 *
 	 * @return  string
 	 */
@@ -186,9 +190,9 @@ class LocalBusiness extends \Org\Schema\Thing\Organization
 	}
 
 	/**
-	 * LocalBusiness destructor.
+	 * Dentist destructor.
 	 * @access  public
-	 * @see     \Org\Schema\Thing\Organization::__destruct()
+	 * @see     \Org\Schema\Thing\Organization\MedicalOrganization::__destruct()
 	 */
 	public function __destruct ()
 	{
