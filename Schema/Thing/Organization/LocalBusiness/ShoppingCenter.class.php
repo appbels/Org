@@ -1,0 +1,52 @@
+<?php
+
+namespace Org\Schema\Thing\Organization\LocalBusiness;
+
+/**
+ * Class ShoppingCenter
+ * A shopping center or mall.
+ * @author      AppBels <app.bels@gmail.com>
+ * @name        ShoppingCenter
+ * @namespace   Org\Schema\Thing\Organization\LocalBusiness
+ * @package     Org\Schema
+ * @see         https://schema.org/ShoppingCenter
+ * Date         09/04/2017
+ */
+class ShoppingCenter extends \Org\Schema\Thing\Organization\LocalBusiness
+{
+
+	/**
+	 * ShoppingCenter constructor.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Organization\LocalBusiness::__construct()
+	 */
+	public function __construct ()
+	{
+		parent::__construct();
+	}
+
+	/**
+	 * ShoppingCenter toString.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Organization\LocalBusiness::__toString()
+	 *
+	 * @return  string
+	 */
+	public function __toString ()
+	{
+		return parent::__toString();
+	}
+
+	/**
+	 * ShoppingCenter destructor.
+	 * @access  public
+	 * @see     \Org\Schema\Thing\Organization\LocalBusiness::__destruct()
+	 */
+	public function __destruct ()
+	{
+		parent::__destruct();
+	}
+
+}
+
+?>
