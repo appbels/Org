@@ -135,17 +135,20 @@ class Thing
 	 * Create json schema.
 	 * @final
 	 * @access  public
+	 * @param	int		$options	json options
 	 *
 	 * @return  string
 	 */
-    public final function toJson ()
+    public final function toJson ($options = JSON_UNESCAPED_SLASHES)
     {
     	$rs = $this->toArray();
+
 		if (!empty($rs)){
+			$rs['@type'] = substr(static::class, (strrpos(static::class, "\\") + 1));
     		$rs['@context'] = self::CONTEXT;
 		}
 
-    	return json_encode($rs, JSON_UNESCAPED_SLASHES);
+    	return json_encode($rs, $options);
     }
 
 	/**
@@ -193,10 +196,6 @@ class Thing
 			}else {
 				$rs[$property] = $value;
 			}
-		}
-
-		if (!empty($rs)){
-			$rs['@type'] = substr(static::class, (strrpos(static::class, "\\") + 1));
 		}
 
 		return $rs;
