@@ -16,14 +16,6 @@ class EducationalOrganization extends \Org\Schema\Thing\Organization
 {
 
 	/**
-	 * Alumni of an organization.
-	 * Inverse property: alumniOf.
-	 * @access	public
-	 * @var		\Org\Schema\Thing\Person
-	 */
-	public $alumni;
-
-	/**
 	 * EducationalOrganization constructor.
 	 * @access  public
 	 * @see     \Org\Schema\Thing\Organization::__construct()
