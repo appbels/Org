@@ -160,7 +160,38 @@ class Thing
 	 */
     public final function toHtml ()
     {
-    	return '';
+		$properties = get_object_vars($this);
+		$type = substr(static::class, (strrpos(static::class, "\\") + 1));
+    	$html = "<div itemscope itemtype=\"" . self::CONTEXT ."/{$type}\" itemprop=\"" . strtolower($type) . "\">";
+    	foreach ($properties as $property => $value){
+    		if (!isset($value) || empty($value)){
+    			continue;
+			}
+
+			if ($value instanceof \Org\Schema\Thing){
+    			$html .= $value->toHtml();
+			}else if (is_array($value)){
+				$elems = array_values($value);
+				$len = count($elems);
+				for ($i = 0; $i < $len; $i++){
+					if (empty($elems[$i])){
+						continue;
+					}
+
+					if ($elems[$i] instanceof \Org\Schema\Thing){
+						$html .= $elems[$i]->toHtml();
+					}else if (is_scalar($elems[$i])){
+						$html .= (filter_var($elems[$i], FILTER_VALIDATE_URL)) ? "<link itemprop=\"" . $property . "\" href=\"" . $elems[$i] . "\" />" : "<meta itemprop=\"" . $property . "\" content=\"" . $elems[$i] . "\" />";
+					}
+				}
+			}else if (is_scalar($value)){
+				$html .= (filter_var($value, FILTER_VALIDATE_URL)) ? "<link itemprop=\"" . $property . "\" href=\"" . $value . "\" />" : "<meta itemprop=\"" . $property . "\" content=\"" . $value . "\" />";
+			}
+		}
+
+		$html .= "</div>";
+
+		return $html;
     }
 
 	/**
