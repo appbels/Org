@@ -3,11 +3,26 @@
     "description": "PHP Library for schema.org",
     "type": "library",
     "license": "Apache",
+    "keywords": ["Php Org", "Org", "AppBels", "schema.org", "Php builder for schema.org", "Php Structured Data"],
+    "homepage": "https://github.com/appbels/Org",
+    "time": "2017-02-25",
     "authors": [
         {
             "name": "AppBels",
-            "email": "app.bels@gmail.com"
+            "email": "app.bels@gmail.com",
+            "role": "Developer"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": ["autoload.php"]
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/appbels/Org"
+        }
+    ]
 }
