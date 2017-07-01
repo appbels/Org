@@ -155,21 +155,29 @@ class Thing
 	 * Create html schema.
 	 * @final
 	 * @access  public
+	 * @param 	string	$property	Parent property.
 	 *
 	 * @return  string
 	 */
-    public final function toHtml ()
+    public final function toHtml ($property = '')
     {
 		$properties = get_object_vars($this);
 		$type = substr(static::class, (strrpos(static::class, "\\") + 1));
-    	$html = "<div itemscope itemtype=\"" . self::CONTEXT ."/{$type}\" itemprop=\"" . strtolower($type) . "\">";
-    	foreach ($properties as $property => $value){
+    	$html = "<div itemscope itemtype=\"" . self::CONTEXT ."/{$type}\"";
+
+    	if (!empty($property)){
+    		$html .= " itemprop=\"" . $property . "\"";
+		}
+
+		$html .= ">";
+
+    	foreach ($properties as $prop => $value){
     		if (!isset($value) || empty($value)){
     			continue;
 			}
 
 			if ($value instanceof \Org\Schema\Thing){
-    			$html .= $value->toHtml();
+    			$html .= $value->toHtml($prop);
 			}else if (is_array($value)){
 				$elems = array_values($value);
 				$len = count($elems);
@@ -179,13 +187,13 @@ class Thing
 					}
 
 					if ($elems[$i] instanceof \Org\Schema\Thing){
-						$html .= $elems[$i]->toHtml();
+						$html .= $elems[$i]->toHtml($prop);
 					}else if (is_scalar($elems[$i])){
-						$html .= (filter_var($elems[$i], FILTER_VALIDATE_URL)) ? "<link itemprop=\"" . $property . "\" href=\"" . $elems[$i] . "\" />" : "<meta itemprop=\"" . $property . "\" content=\"" . $elems[$i] . "\" />";
+						$html .= (filter_var($elems[$i], FILTER_VALIDATE_URL)) ? "<link itemprop=\"" . $prop . "\" href=\"" . $elems[$i] . "\" />" : "<meta itemprop=\"" . $prop . "\" content=\"" . $elems[$i] . "\" />";
 					}
 				}
 			}else if (is_scalar($value)){
-				$html .= (filter_var($value, FILTER_VALIDATE_URL)) ? "<link itemprop=\"" . $property . "\" href=\"" . $value . "\" />" : "<meta itemprop=\"" . $property . "\" content=\"" . $value . "\" />";
+				$html .= (filter_var($value, FILTER_VALIDATE_URL)) ? "<link itemprop=\"" . $prop . "\" href=\"" . $value . "\" />" : "<meta itemprop=\"" . $prop . "\" content=\"" . $value . "\" />";
 			}
 		}
 
