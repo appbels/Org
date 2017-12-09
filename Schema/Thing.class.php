@@ -22,6 +22,16 @@ class Thing
 	 */
 	const CONTEXT = "http://schema.org";
 
+	/**
+	 * Used to uniquely identify things that are being described in the document with IRIs or blank node identifiers.
+	 * This keyword is described in section 5.3 Node Identifiers.
+	 * Property used for json-ld.
+	 * @access	public
+	 * @see		https://www.w3.org/TR/json-ld/
+	 * @var		string
+	 */
+	public $id;
+
     /**
      * An additional type for the item, typically used for adding more specific types from external
      * vocabularies in microdata syntax.
@@ -132,7 +142,7 @@ class Thing
     }
 
 	/**
-	 * Create json schema.
+	 * Create json-ld schema.
 	 * @final
 	 * @access  public
 	 * @param	int		$options	json options
@@ -141,7 +151,40 @@ class Thing
 	 */
     public final function toJson ($options = JSON_UNESCAPED_SLASHES)
     {
-    	$rs = $this->toArray();
+		$properties = get_object_vars($this);
+		unset($properties['id']);
+		$rs = array();
+		foreach ($properties as $property => $value){
+			if (!isset($this->{$property}) || empty($this->{$property})){
+				continue;
+			}
+
+			if (is_object($value) && $value instanceof \Org\Schema\Thing){
+				$rs[$property] = json_decode($value->toJson($options), true);
+				unset($rs[$property]['@context']);
+			}else if (is_array($value)){
+				$props = array_values($value);
+				$prop = array();
+				$l = count($props);
+				for ($i = 0; $i < $l; $i++){
+					if (is_object($props[$i]) && $props[$i] instanceof \Org\Schema\Thing){
+						$item = json_decode($props[$i]->toJson($options), true);
+						unset($item['@context']);
+						$prop[] = $item;
+						unset($item);
+					}else {
+						$prop[] = $props[$i];
+					}
+				}
+				$rs[$property] = $prop;
+			}else {
+				$rs[$property] = $value;
+			}
+		}
+
+		if (!empty($this->id)){
+			$rs['@id'] = $this->id;
+		}
 
 		if (!empty($rs)){
 			$rs['@type'] = substr(static::class, (strrpos(static::class, "\\") + 1));
@@ -162,6 +205,7 @@ class Thing
     public final function toHtml ($property = '')
     {
 		$properties = get_object_vars($this);
+		unset($properties['id']);
 		$type = substr(static::class, (strrpos(static::class, "\\") + 1));
     	$html = "<div itemscope itemtype=\"" . self::CONTEXT ."/{$type}\"";
 
@@ -212,6 +256,7 @@ class Thing
     public final function toArray ()
 	{
 		$properties = get_object_vars($this);
+		unset($properties['id']);
 		$rs = array();
 		foreach ($properties as $property => $value){
 			if (!isset($this->{$property}) || empty($this->{$property})){
