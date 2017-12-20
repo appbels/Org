@@ -1,4 +1,8 @@
 <?php
+/**
+ * Example of NewsArticle
+ * @see	https://developers.google.com/search/docs/data-types/articles
+ */
 require_once '../autoload.php';
 
 $newsArticle = new \Org\Schema\Thing\CreativeWork\Article\NewsArticle();
