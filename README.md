@@ -104,3 +104,5 @@ Output generated
     "@context": "http://schema.org"
 }
 ```
+
+See in `examples` directory for more examples.
