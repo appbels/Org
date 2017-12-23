@@ -67,6 +67,17 @@ class Thing
      */
     public $disambiguatingDescription;
 
+	/**
+	 * The identifier property represents any kind of identifier for any kind of Thing,
+	 * such as ISBNs, GTIN codes, UUIDs etc.
+	 * Schema.org provides dedicated properties for representing many of these, either as
+	 * textual strings or as URL (URI) links.
+	 * See background notes for more details.
+	 * @access	public
+	 * @var		string|\Org\Schema\Thing\Intangible\StructuredValue\PropertyValue
+	 */
+    public $identifier;
+
     /**
      * An image of the item. This can be a URL or a fully described ImageObject.
      * @access  public
