@@ -20,7 +20,7 @@ function OrgSchemaAutoload ($classname)
 
 	$ext = array(".interface.php", ".abstract.php", ".trait.php", ".class.php", ".php");
 	$class = str_replace("\\", "/", $classname);
-	$path = dirname(__DIR__)."/{$class}";
+	$path = dirname(__FILE__)."/{$class}";
 	$len = count($ext);
 
 	for ($i = 0; $i < $len; $i++){
