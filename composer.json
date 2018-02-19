@@ -2,7 +2,7 @@
     "name": "appbels/org",
     "description": "PHP Library for schema.org",
     "type": "library",
-    "license": "Apache",
+    "license": "Apache-2.0",
     "keywords": ["Php Org", "Org", "AppBels", "schema.org", "Php builder for schema.org", "Php Structured Data"],
     "homepage": "https://github.com/appbels/Org",
     "time": "2017-02-25",
